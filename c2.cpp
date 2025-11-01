@@ -15,8 +15,8 @@ int main()
 
     // Perform operations
     int sum = num1 + num2 + num3;
-    int difference = num1 - num2 - num3;
-    int product = num1 * num2 * num3;
+    int substruct = num1 - num2 - num3;
+    int multiply = num1 * num2 * num3;
     double division = 0.0;
     if (num2 != 0)
     {
@@ -40,8 +40,8 @@ int main()
     // Display results
     cout << "\n===== RESULTS =====" << endl;
     cout << "Sum of all three numbers: " << sum << endl;
-    cout << "Difference (first - second - third): " << difference << endl;
-    cout << "Product of all three numbers: " << product << endl;
+    cout << "substruct (first - second - third): " << substruct << endl;
+    cout << "multiply of all three numbers: " << multiply << endl;
     cout << "Division (first ÷ second): " << division << endl;
     cout << "Modulus ((first % second) % third): " << modulus << endl;
 
